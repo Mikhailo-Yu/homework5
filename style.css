@@ -10,16 +10,22 @@ h1 {
 [class="attribute"] {
   color: blue;
 }
-div p {
+div .once {
   color: rgb(197, 60, 18);
 }
 .daugter>p {
   color: rgb(42, 165, 48);
 }
 .descendant+p {
-  color: rgb(238, 5, 5);
+  color: rgb(245, 11, 11);
 }
-div~p {
-  
+.daugter~#sequence {
+  color: aqua;
+}
+.one:first-of-type {
+  color: rgb(238, 12, 12);
+}
+p:nth-of-type(7) {
+  color: brown;
 }
 
