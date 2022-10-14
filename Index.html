@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
   <meta charset="UTF-8">
@@ -17,14 +17,16 @@
   <p id="grey">Селектор по id, вага 100</p>
   <p class="attribute">Селектор по атрибуту, вага 10</p>
   <div>
-    <p class="once">Вкладені селектори, вага 2</p>
+    <p class="once">Контекстний селектор, вага 11</p>
   </div>
   <div class="daugter">
     <p>Дочірній селектор, вага 11</p>
   </div>
-  <p class="descendant" id="sequence">Послідовність селекторів, вага 2</p>
-  <p>Послідовність селекторів, вага 11</p>
-  <p> Селектор з псевдокласом Last 11</p>
+  <p class="descendant" id="sequence">Послідовність правило для всіх з селекторів id - sequence, які слідують за
+    селектором daugter вага 110</p>
+  <p>Послідовність селекторів(перший), вага 11</p>
+  <p> Селектор з псевдокласом nth-of-type 11</p>
+
 </body>
 
 </html>
